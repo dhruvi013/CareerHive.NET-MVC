@@ -1,4 +1,5 @@
 🎯 CareerHive
+
 CareerHive is an ASP.NET MVC web application designed to connect job seekers with employers in an efficient and user-friendly way. It provides an integrated platform for managing job postings, applications, and user profiles while fostering career growth and opportunity.
 
 🌟 Key Features
@@ -31,6 +32,7 @@ Database:
 SQL Server
 Design:
 Bootstrap for a responsive and visually appealing UI
+
 📂 Pages Overview
 
 Home Page:
