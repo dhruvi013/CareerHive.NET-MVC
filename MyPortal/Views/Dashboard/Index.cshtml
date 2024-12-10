@@ -1,0 +1,325 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Ensure you reference your shared layout
+}
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+<!-- CSS Libraries -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+<div class="welcome-banner">
+    <h1>Welcome to the Dashboard, <span>@ViewBag.UserName</span>!</h1>
+</div>
+
+<div class="container">
+    <h2>Job Listings</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Location</th>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var job in ViewBag.JobListings)
+            {
+                <tr>
+                    <td>@job.Title</td>
+                    <td>@job.Location</td>
+                    <td>@job.Company</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Footer Start -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-contact">
+                            <h2>Our Head Office</h2>
+                            <p><i class="fa fa-map-marker-alt"></i>Marwadi University, Gujarat, India</p>
+                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                            <p><i class="fa fa-envelope"></i>dhruvipatrl1611@gmail.com</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-link">
+                            <h2>Quick Links</h2>
+                            <a href="">Terms of use</a>
+                            <a href="">Privacy policy</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="footer-newsletter">
+                    <h2>Newsletter</h2>
+                    <p>
+                        Subscribe to our newsletter for the latest job openings and career tips. Receive tailored job alerts and industry insights directly in your inbox. Join our community and elevate your professional journey!
+                    </p>
+                    <div class="form">
+                        <input class="form-control" placeholder="Email goes here">
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container copyright">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; <a href="#">CareerHive</a>, All Right Reserved.</p>
+            </div>
+            <!-- <div class="col-md-6">
+                <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            </div> -->
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<style>
+
+    /********* Footer CSS **********/
+    /*******************************/
+    .footer {
+        position: relative;
+        margin-top: 45px;
+        padding-top: 90px;
+        background: #092a49;
+    }
+
+        .footer .footer-contact,
+        .footer .footer-link,
+        .footer .footer-newsletter {
+            position: relative;
+            margin-bottom: 45px;
+            color: #ffffff;
+        }
+
+            .footer .footer-contact h2,
+            .footer .footer-link h2,
+            .footer .footer-newsletter h2 {
+                position: relative;
+                margin-bottom: 30px;
+                padding-bottom: 10px;
+                font-size: 22px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                color: #ffffff;
+            }
+
+                .footer .footer-contact h2::after,
+                .footer .footer-link h2::after,
+                .footer .footer-newsletter h2::after {
+                    position: absolute;
+                    content: "";
+                    width: 45px;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background: #0796fe;
+                }
+
+            .footer .footer-link a {
+                display: block;
+                margin-bottom: 10px;
+                color: #ffffff;
+                transition: .3s;
+            }
+
+                .footer .footer-link a::before {
+                    position: relative;
+                    content: "\f105";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    margin-right: 10px;
+                }
+
+                .footer .footer-link a:hover {
+                    color: #0796fe;
+                    letter-spacing: 1px;
+                }
+
+            .footer .footer-contact p i {
+                width: 25px;
+            }
+
+        .footer .footer-social {
+            position: relative;
+            margin-top: 20px;
+        }
+
+            .footer .footer-social a {
+                display: inline-block;
+            }
+
+                .footer .footer-social a i {
+                    margin-right: 15px;
+                    font-size: 18px;
+                    color: #092a49;
+                }
+
+                .footer .footer-social a:last-child i {
+                    margin: 0;
+                }
+
+                .footer .footer-social a:hover i {
+                    color: #999999;
+                }
+
+        .footer .footer-newsletter .form {
+            position: relative;
+            width: 100%;
+        }
+
+        .footer .footer-newsletter input {
+            height: 60px;
+            border: 2px solid #1d2434;
+            border-radius: 0;
+        }
+
+        .footer .footer-newsletter .btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            height: 44px;
+            padding: 8px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #092a49;
+            background: none;
+            border-radius: 0;
+            border: 2px solid #092a49;
+            transition: .3s;
+        }
+
+            .footer .footer-newsletter .btn:hover {
+                color: #0796fe;
+                background: #092a49;
+            }
+
+        .footer .copyright {
+            padding: 0 30px;
+        }
+
+            .footer .copyright .row {
+                padding-top: 25px;
+                padding-bottom: 25px;
+                border-top: 1px solid rgba(256, 256, 256, .1);
+            }
+
+            .footer .copyright p {
+                margin: 0;
+                color: #999999;
+            }
+
+                /* .footer .copyright .col-md-6:last-child p {
+            text-align: right;
+        }
+         */
+                .footer .copyright p a {
+                    color: #ffffff;
+                }
+
+                    .footer .copyright p a:hover {
+                        color: #0796fe;
+                    }
+
+    /* General Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f7fa;
+        color: #333;
+    }
+
+    .welcome-banner {
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+
+    .container {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+        table thead th {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+
+        table tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:hover {
+            background-color: #e2e6ea;
+        }
+
+        table td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+    .footer {
+        text-align: center;
+        margin-top: 30px;
+        padding: 10px 0;
+        background: #333;
+        color: white;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+</style>

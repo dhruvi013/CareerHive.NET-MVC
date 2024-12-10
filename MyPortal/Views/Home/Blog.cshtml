@@ -1,0 +1,426 @@
+﻿
+@{
+    ViewBag.Title = "Blog";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Confer - Consulting Website Template Free Download</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Consulting Website Template Free Download" name="keywords">
+    <meta content="Consulting Website Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <style>
+        /*******************************/
+        /********* General CSS *********/
+        /*******************************/
+        body {
+            color: #797979;
+            background: #ffffff;
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #092a49;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        a {
+            color: #454545;
+            transition: .3s;
+        }
+
+            a:hover,
+            a:active,
+            a:focus {
+                color: #092a49;
+                outline: none;
+                text-decoration: none;
+            }
+
+        .btn:focus,
+        .form-control:focus {
+            box-shadow: none;
+        }
+
+        .container-fluid {
+            max-width: 1366px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            display: none;
+            background: #0796fe;
+            width: 44px;
+            height: 44px;
+            text-align: center;
+            line-height: 1;
+            font-size: 22px;
+            right: 15px;
+            bottom: 15px;
+            transition: background 0.5s;
+            z-index: 9;
+        }
+
+            .back-to-top i {
+                color: #092a49;
+                padding-top: 10px;
+            }
+
+            .back-to-top:hover {
+                background: #092a49;
+            }
+
+                .back-to-top:hover i {
+                    color: #0796fe;
+                }
+
+        /*******************************/
+        /*********** Blog CSS **********/
+        /*******************************/
+        .blog {
+            position: relative;
+            width: 100%;
+            padding: 45px 0;
+        }
+
+            .blog .section-header {
+                margin-bottom: 75px;
+            }
+
+            .blog .blog-carousel {
+                position: relative;
+                width: calc(100% + 30px);
+                left: -15px;
+                right: -15px;
+            }
+
+            .blog .blog-item {
+                position: relative;
+                margin: 0 15px;
+            }
+
+            .blog.blog-page .blog-item {
+                margin: -30px 0 0 0;
+            }
+
+            .blog .blog-img {
+                position: relative;
+                width: 100%;
+                z-index: 1;
+            }
+
+                .blog .blog-img img {
+                    width: 100%;
+                }
+
+            .blog .blog-content {
+                position: relative;
+                width: calc(100% - 60px);
+                top: -60px;
+                left: 30px;
+                padding: 25px 30px;
+                background: #ffffff;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+                z-index: 2;
+            }
+
+                .blog .blog-content h2.blog-title {
+                    font-size: 25px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+
+            .blog .blog-meta {
+                position: relative;
+                margin-bottom: 15px;
+            }
+
+                .blog .blog-meta * {
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #797979;
+                }
+
+                .blog .blog-meta i {
+                    color: #0796fe;
+                    margin: 0 2px 0 10px;
+                }
+
+                    .blog .blog-meta i:first-child {
+                        margin-left: 0;
+                    }
+
+            .blog .blog-text {
+                position: relative;
+            }
+
+                .blog .blog-text p {
+                    margin-bottom: 10px;
+                }
+
+            .blog .blog-item a.btn {
+                position: relative;
+                padding: 0 0 0 35px;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: #0796fe;
+                transition: .3s;
+            }
+
+                .blog .blog-item a.btn:hover {
+                    color: #092a49;
+                }
+
+                .blog .blog-item a.btn::before {
+                    position: absolute;
+                    content: "";
+                    width: 30px;
+                    height: 2px;
+                    top: 10px;
+                    left: 0;
+                    background: #0796fe;
+                }
+
+            .blog .owl-nav {
+                position: relative;
+                width: 100%;
+                margin-top: -30px;
+                display: flex;
+                justify-content: center;
+            }
+
+                .blog .owl-nav .owl-prev,
+                .blog .owl-nav .owl-next {
+                    position: relative;
+                    width: 100px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #0796fe;
+                    font-size: 25px;
+                    transition: .3s;
+                }
+
+                .blog .owl-nav .owl-prev {
+                    padding-right: 80px;
+                }
+
+                .blog .owl-nav .owl-next {
+                    padding-left: 80px;
+                }
+
+                    .blog .owl-nav .owl-prev:hover,
+                    .blog .owl-nav .owl-next:hover {
+                        color: #092a49;
+                    }
+
+                    .blog .owl-nav .owl-prev::after,
+                    .blog .owl-nav .owl-next::after {
+                        position: absolute;
+                        content: "";
+                        width: 80px;
+                        height: 3px;
+                        top: 11px;
+                        background: #0796fe;
+                        transition: .3s;
+                    }
+
+                .blog .owl-nav .owl-prev::after {
+                    left: 9px;
+                }
+
+                .blog .owl-nav .owl-next::after {
+                    right: 9px;
+                }
+
+                .blog .owl-nav .owl-prev:hover::after {
+                    background: #092a49;
+                }
+
+                .blog .owl-nav .owl-next:hover::after {
+                    background: #092a49;
+                }
+
+            .blog .pagination {
+                margin-bottom: 0;
+            }
+
+                .blog .pagination .page-link {
+                    margin-top: -30px;
+                    color: #092a49;
+                    border-radius: 0;
+                    border-color: #092a49;
+                }
+
+                    .blog .pagination .page-link:hover,
+                    .blog .pagination .page-item.active .page-link {
+                        color: #0796fe;
+                        background: #092a49;
+                    }
+
+                .blog .pagination .disabled .page-link {
+                    color: #999999;
+                }
+
+
+    </style>
+   
+</head>
+
+<body class="page">
+    <!-- Blog Start -->
+    <div class="blog blog-page mt-125">
+        <div class="container">
+            <div class="section-header">
+                <p>Consulting Blog</p>
+                <h2>Latest From Our Consulting Blog</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="~/Images/blog-1.jpg" />
+                        </div>
+                        <div class="blog-content">
+                            <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+                            <div class="blog-meta">
+                                <i class="fa fa-list-alt"></i>
+                                <a href="">Category</a>
+                                <i class="fa fa-calendar-alt"></i>
+                                <p>01-Jan-2045</p>
+                            </div>
+                            <div class="blog-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                                <a class="btn" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="~/Images/blog-2.jpg" />
+                        </div>
+                        <div class="blog-content">
+                            <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+                            <div class="blog-meta">
+                                <i class="fa fa-list-alt"></i>
+                                <a href="">Category</a>
+                                <i class="fa fa-calendar-alt"></i>
+                                <p>01-Jan-2045</p>
+                            </div>
+                            <div class="blog-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                                <a class="btn" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="~/Images/blog-3.jpg" />
+                        </div>
+                        <div class="blog-content">
+                            <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+                            <div class="blog-meta">
+                                <i class="fa fa-list-alt"></i>
+                                <a href="">Category</a>
+                                <i class="fa fa-calendar-alt"></i>
+                                <p>01-Jan-2045</p>
+                            </div>
+                            <div class="blog-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                                <a class="btn" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="~/Images/blog-4.jpg" />
+                        </div>
+                        <div class="blog-content">
+                            <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+                            <div class="blog-meta">
+                                <i class="fa fa-list-alt"></i>
+                                <a href="">Category</a>
+                                <i class="fa fa-calendar-alt"></i>
+                                <p>01-Jan-2045</p>
+                            </div>
+                            <div class="blog-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                </p>
+                                <a class="btn" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

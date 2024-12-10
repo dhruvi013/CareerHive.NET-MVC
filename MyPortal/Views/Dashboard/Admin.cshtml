@@ -1,0 +1,206 @@
+﻿@{
+    ViewBag.Title = "Admin Panel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="admin-panel">
+    <div class="panel-header">
+        <h1>Admin Panel</h1>
+        <p>Manage job postings efficiently</p>
+    </div>
+
+    <div class="add-job-form">
+        <h2>Add New Job</h2>
+        <form action="/Dashboard/AddJob" method="post">
+            <div class="form-group">
+                <label>Title:</label>
+                <input type="text" name="Title" placeholder="Enter Job Title" required />
+            </div>
+            <div class="form-group">
+                <label>Location:</label>
+                <input type="text" name="Location" placeholder="Enter Location" required />
+            </div>
+            <div class="form-group">
+                <label>Company:</label>
+                <input type="text" name="Company" placeholder="Enter Company Name" required />
+            </div>
+            <div class="form-group">
+                <label>Salary:</label>
+                <input type="number" name="Salary" placeholder="Enter Salary" step="0.01" />
+            </div>
+            <button type="submit" class="btn-primary">Add Job</button>
+        </form>
+    </div>
+
+    <div class="job-listings">
+        <h2>Existing Jobs</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Location</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var job in ViewBag.JobListings)
+                {
+                    <tr>
+                        <td>@job.Title</td>
+                        <td>@job.Location</td>
+                        <td>@job.Company</td>
+                        <td>@job.Salary</td>
+                        <td>
+                            <div class="action-buttons">
+                                <form action="/Dashboard/DeleteJob" method="get" style="display:inline;">
+                                    <input type="hidden" name="id" value="@job.Id" />
+                                    <button type="submit" class="btn-danger">Delete</button>
+                                </form>
+                                <form action="/Dashboard/EditJob" method="post" style="display:inline;">
+                                    <input type="hidden" name="Id" value="@job.Id" />
+                                    <input type="text" name="Title" value="@job.Title" required />
+                                    <input type="text" name="Location" value="@job.Location" required />
+                                    <input type="text" name="Company" value="@job.Company" required />
+                                    <input type="number" name="Salary" value="@job.Salary" step="0.01" />
+                                    <button type="submit" class="btn-secondary">Update</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    /* General Panel Styles */
+    .admin-panel {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 900px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .panel-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .panel-header h1 {
+            font-size: 2rem;
+            color: #007bff;
+        }
+
+        .panel-header p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+    .add-job-form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    /* Job Listings Table */
+    .job-listings table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        margin-top: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .job-listings th,
+    .job-listings td {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .job-listings th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+    .job-listings tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-danger,
+    .btn-secondary {
+        border: none;
+        padding: 5px 10px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: #fff;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+</style>

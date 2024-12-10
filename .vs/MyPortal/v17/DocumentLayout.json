@@ -1,0 +1,539 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|c:\\users\\dreamworld\\documents\\.net\\myportal\\myportal\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\dashboard\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\dashboard\\apply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\packages\\Unity.Mvc5.1.4.0\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\Unity.Mvc5.1.4.0\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\candidateregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\candidateregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\joblisting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\joblisting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\dashboard\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\dashboard\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\admin\\editjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\admin\\editjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\admin\\createjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\admin\\createjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\jobportaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\jobportaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\myportal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07D38DF-A781-44FB-8524-B8509BA569DA}|MyPortal\\MyPortal.csproj|solutionrelative:myportal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T17:06:21.45Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\packages\\Unity.Mvc5.1.4.0\\Readme.txt",
+              "RelativeDocumentMoniker": "packages\\Unity.Mvc5.1.4.0\\Readme.txt",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\packages\\Unity.Mvc5.1.4.0\\Readme.txt",
+              "RelativeToolTip": "packages\\Unity.Mvc5.1.4.0\\Readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-06T13:34:19.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MyPortal\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:31:35.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "MyPortal\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "MyPortal\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:22:37.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Global.asax.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Global.asax.cs",
+              "RelativeToolTip": "MyPortal\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:19:05.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Apply.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Dashboard\\Apply.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Dashboard\\Apply.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Dashboard\\Apply.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Dashboard\\Apply.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAUwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T12:57:43.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T06:18:47.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\homepage.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\homepage.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\homepage.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\homepage.cshtml",
+              "ViewState": "AQIAAG0BAAAAAAAAAAAAAHUBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T09:30:20.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CandidateRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\CandidateRegistration.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\CandidateRegistration.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\CandidateRegistration.cs",
+              "RelativeToolTip": "MyPortal\\Models\\CandidateRegistration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:29:23.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyPortal\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwGAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T06:20:32.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\DbContext.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\DbContext.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\DbContext.cs",
+              "RelativeToolTip": "MyPortal\\Models\\DbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:01:39.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobListing.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\JobListing.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\JobListing.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\JobListing.cs",
+              "RelativeToolTip": "MyPortal\\Models\\JobListing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:37:58.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Landing.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Landing.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\Landing.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Landing.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\Landing.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T06:19:28.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "YourDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\YourDbContext.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\YourDbContext.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\YourDbContext.cs",
+              "RelativeToolTip": "MyPortal\\Models\\YourDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:26:46.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Blog.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\Blog.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Blog.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\Blog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUBAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T09:02:06.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB0BAAAAAAAAAAAAAC0BAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T06:50:39.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T05:49:49.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T14:32:31.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Dashboard\\Admin.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Dashboard\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Dashboard\\Admin.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Dashboard\\Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T14:41:19.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:57:38.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T09:27:52.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateJob.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Admin\\CreateJob.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Admin\\CreateJob.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Admin\\CreateJob.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Admin\\CreateJob.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T07:03:31.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditJob.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Admin\\EditJob.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Admin\\EditJob.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Admin\\EditJob.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Admin\\EditJob.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvy8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T07:04:12.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyPortal\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAEwEoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T05:50:36.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\UserAccount.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\UserAccount.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\UserAccount.cs",
+              "RelativeToolTip": "MyPortal\\Models\\UserAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:01:12.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T06:33:07.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JobPortalDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\JobPortalDBContext.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\JobPortalDBContext.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\JobPortalDBContext.cs",
+              "RelativeToolTip": "MyPortal\\Models\\JobPortalDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T05:53:31.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MyPortal\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MyPortal\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T05:48:07.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\UserRole.cs",
+              "RelativeToolTip": "MyPortal\\Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T05:46:22.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\Role.cs",
+              "RelativeToolTip": "MyPortal\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T05:45:58.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MyPortal\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Models\\User.cs",
+              "RelativeToolTip": "MyPortal\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T05:45:16.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Web.config",
+              "RelativeDocumentMoniker": "MyPortal\\Web.config",
+              "ToolTip": "C:\\Users\\DREAMWORLD\\Documents\\.Net\\MyPortal\\MyPortal\\Web.config",
+              "RelativeToolTip": "MyPortal\\Web.config",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T05:43:20.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+﻿@model MyPortal.Models.JobListing
+
+@{
+    ViewBag.Title = "Create Job";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Job</h2>
+
+@using (Html.BeginForm("CreateJob", "Admin", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Title)
+        @Html.TextBoxFor(model => model.Title, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Company)
+        @Html.TextBoxFor(model => model.Company, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Location)
+        @Html.TextBoxFor(model => model.Location, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Salary)
+        @Html.TextBoxFor(model => model.Salary, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description)
+        @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = 5 })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ApplyLink)
+        @Html.TextBoxFor(model => model.ApplyLink, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Post Job</button>
+}

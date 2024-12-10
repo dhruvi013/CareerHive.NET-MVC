@@ -1,0 +1,280 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta charset="utf-8">
+    <title>Confer - Consulting Website Template Free Download</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Consulting Website Template Free Download" name="keywords">
+    <meta content="Consulting Website Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+</head>
+<style>
+    /********* General CSS *********/
+    /*******************************/
+    body {
+        color: #797979;
+        background: #ffffff;
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #092a49;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    a {
+        color: #454545;
+        transition: .3s;
+    }
+
+        a:hover,
+        a:active,
+        a:focus {
+            color: #092a49;
+            outline: none;
+            text-decoration: none;
+        }
+
+    .btn:focus,
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .container-fluid {
+        max-width: 1366px;
+    }
+
+    .back-to-top {
+        position: fixed;
+        display: none;
+        background: #0796fe;
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        line-height: 1;
+        font-size: 22px;
+        right: 15px;
+        bottom: 15px;
+        transition: background 0.5s;
+        z-index: 9;
+    }
+
+        .back-to-top i {
+            color: #092a49;
+            padding-top: 10px;
+        }
+
+        .back-to-top:hover {
+            background: #092a49;
+        }
+
+            .back-to-top:hover i {
+                color: #0796fe;
+            }
+
+    /*******************************/
+    /********* Contact CSS *********/
+    /*******************************/
+    .contact {
+        position: relative;
+        width: 100%;
+        padding: 45px 0 15px 0;
+    }
+
+        .contact .contact-info {
+            position: relative;
+            display: flex;
+            padding: 30px;
+            border: 1px solid rgba(0, 0, 0, .1);
+            margin-bottom: 30px;
+            transition: .3s;
+        }
+
+            .contact .contact-info:hover {
+                border-color: transparent;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+            }
+
+        .contact .contact-icon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(0, 0, 0, .1);
+        }
+
+            .contact .contact-icon i {
+                font-size: 18px;
+                color: #0796fe;
+            }
+
+        .contact .contact-text {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+        }
+
+            .contact .contact-text h3 {
+                font-size: 16px;
+                font-weight: 400;
+                color: #092a49;
+                letter-spacing: 1px;
+            }
+
+            .contact .contact-text p {
+                margin: 0;
+                font-size: 16px;
+            }
+
+        .contact .contact-form {
+            position: relative;
+            padding: 30px;
+            border: 1px solid rgba(0, 0, 0, .1);
+            margin-bottom: 30px;
+            transition: .3s;
+        }
+
+            .contact .contact-form:hover {
+                border-color: transparent;
+                box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+            }
+
+            .contact .contact-form input {
+                padding: 15px;
+                background: none;
+                border-radius: 0;
+                border: 1px solid rgba(0, 0, 0, .1);
+            }
+
+            .contact .contact-form textarea {
+                height: 100px;
+                padding: 8px 15px;
+                background: none;
+                border-radius: 0;
+                border: 1px solid rgba(0, 0, 0, .1);
+            }
+
+            .contact .contact-form .btn {
+                padding: 15px 30px;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                color: #092a49;
+                background: none;
+                border: 2px solid #092a49;
+                border-radius: 0;
+                transition: .3s;
+            }
+
+                .contact .contact-form .btn:hover {
+                    color: #0796fe;
+                    background: #092a49;
+                }
+
+        .contact .help-block ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+</style>
+
+<body>
+    <!-- Contact Start -->
+    <div class="contact mt-125">
+        <div class="container">
+            <div class="section-header">
+                <p>Get In Touch</p>
+                <h2>Get In Touch For Any Query</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Our Head Office</h3>
+                            <p>123 Street, New York, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Call for Help</h3>
+                            <p>+012 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email for Information</h3>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+</body>
+</html>
